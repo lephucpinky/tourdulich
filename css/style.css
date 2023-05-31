@@ -1,0 +1,44 @@
+@import url('https://fontawesome.com/search');
+
+
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-container{
+    
+   height: 100%;
+   width: 100%;
+}
+.header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+}
+
+#sidebar{
+    width: 200px;
+}
+#sidebar .toggle{
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background: #373B44;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+}
+.navigation{
+    
+}
+.navigation ul li{
+    display: none;
+}
